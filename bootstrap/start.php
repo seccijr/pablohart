@@ -24,11 +24,9 @@ $app = new Illuminate\Foundation\Application;
 |
  */
 
-$env = $app->detectEnvironment(array(
-
-    'local' => array('SECCI-THINK'),
-
-));
+$env = $app->detectEnvironment(function () {
+    return getenv('PROD_ENV') ? : 'local';
+});
 
 /*
 |--------------------------------------------------------------------------
