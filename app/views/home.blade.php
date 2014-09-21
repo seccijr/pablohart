@@ -5,15 +5,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=1024, user-scalable=yes" />
-        <meta name="description" content="Pablo Hart. Autumn-Winter Collection Man." />
+        <meta name="description" content="Pablo Hart. Colleción d ehombre Otoño-Invierno." />
         <meta name="copyright" content="" />
-        <meta name="keywords" content="Valentino, AUTUMN/WINTER 2014" />
-        <link rel="shortcut icon" href="/favicon/valentino/favicon.ico" />
+        <meta name="keywords" content="Pablo Hart, AUTUMN/WINTER 2014" />
         <meta property="og:title" content="Valentino Virtual Showroom" />
-        <meta property="og:description" content="Welcome to the ultimate shopping experience." />
-        <meta property="og:image" content="http://cdn2.yoox.biz/Os/valentino/banners/1147_1_BANNER_PRE_ITA.jpg" />
+        <meta property="og:description" content="Bienvenido al arte en su armario." />
+        <meta property="og:image" content="http://NONE.jpg" />
         <meta name="robots" content="index,nofollow" />
-        {{ HTML::script('js/common/grey.js') }}
+
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
         {{ HTML::style('css/grey.css') }}
         {{ HTML::style('css/grey.custom.css') }}
     </head>
@@ -26,15 +27,15 @@
                             <div id="login">
                                 <ul class="notLogged clearfix">
                                     <li class="first">
-                                        <a href="/account/index.asp?tskay=27D69C18" rel="nofollow">Log in
+                                        <a href="" rel="nofollow">Log in
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/account/profile.asp?tskay=27D69C18" rel="nofollow">Registration
+                                        <a href="" rel="nofollow">Registration
                                         </a>
                                     </li>
                                     <li class="last">
-                                        <a href="/cms/help/home.asp?tskay=27D69C18" rel="nofollow">Customer Care
+                                        <a href="" rel="nofollow">Customer Care
                                         </a>
                                     </li>
                                 </ul>
@@ -51,17 +52,11 @@
                             <a id="newsletterSubmit">
                             </a>
                         </div>
-                        <script type="text/javascript">
-                        var jsinit_newsletter = {
-                        "defaultText": "Insert your e-mail",
-                        "invalidEmail": "Please insert a correct e-mail address"
-                        }
-                        </script>
                     </div>
                 </div>
                 <div class="headerCnt">
-                    <span class="Homemade-Apple-normal-400 logoTop">
-                        Pablo Hart
+                    <span class="logoTop">
+                        {{ HTML::image('img/logo.png'); }}
                     </span>
                     <div class="switchSeason clearfix">
                         <ul>
@@ -74,13 +69,13 @@
                     <div class="switchGender clearfix">
                         <ul>
                             <li>
-                                <span class="selGender">Woman
+                                <span class="selGender">Art
                                 </span>
                             </li>
                             <li>|
                             </li>
                             <li>
-                                <a class="notSelGender" href="/home.asp?tskay=27D69C18&amp;mm=112&amp;gender=U&amp;season=main">Man
+                                <a class="notSelGender" href="">Fashion
                                 </a>
                             </li>
                         </ul>
@@ -88,13 +83,13 @@
                             <div id="mainSectionsInner" class="right">
                                 <ul class="navCnt">
                                     <li>
-                                        <a id="wishBtn" href="/account/wishlist.asp?tskay=27D69C18" rel="nofollow">Wish List
+                                        <a id="wishBtn" href="" rel="nofollow">Wish List
                                         </a>
                                     </li>
                                     <li>|
                                     </li>
                                     <li>
-                                        <span onClick="location.href=('http://store.valentino.com/checkout/cart.asp?tskay=27D69C18')" rel="nofollow" id="cartLink">Shopping Bag
+                                        <span  rel="nofollow" id="cartLink">Shopping Bag
                                             <span id="cartNum">
                                                 ( 0 )
                                             </span>
@@ -119,93 +114,27 @@
                 <div id="subMenu" class="clearfix">
                     <ul class="menuNavigation">
                         <li id="mood" class="mpa">
-                            <a href="javascript:void(0)" class="selected" title="HIGHLIGHTS">HIGHLIGHTS
+                            <a href="" class="selected" title="HIGHLIGHTS">HIGHLIGHTS
                             </a>
-                            <ul id="hl" class="subMenu">
-                                <li>
-                                    <a href="http://store.valentino.com/special/rouge_absolute_signature" title="ROUGE ABSOLUTE SIGNATURE">ROUGE ABSOLUTE SIGNATURE
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://store.valentino.com/search/Eyewear_Signature_Charms/Woman/season/main/gender/D/collection_id/29493/mm/112/" title="Eyewear Signature Charms">Eyewear Signature Charms
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Camubutterfly" href="/search/Camubutterfly/Woman/season/main/tskay/27D69C18/gender/D/collection_id/28688/mm/112/">Camubutterfly
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Rockstud Italian Pop" href="/search/Rockstud_Italian_Pop/Woman/season/main/tskay/27D69C18/gender/D/collection_id/29445/mm/112/">Rockstud Italian Pop
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Crepe Couture" href="/search/Crepe_Couture/Woman/season/main/tskay/27D69C18/gender/D/collection_id/28798/mm/112/">Crepe Couture
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Fall Accessories" href="/search/Fall_Accessories/Woman/season/main/tskay/27D69C18/gender/D/collection_id/28934/mm/112/">Fall Accessories
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Runway Looks" href="/search/Runway_Looks/Woman/season/main/tskay/27D69C18/gender/D/collection_id/29267/mm/112/">Runway Looks
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Fringe Accessories" href="/search/Fringe_Accessories/Woman/season/main/tskay/27D69C18/gender/D/collection_id/29444/mm/112/">Fringe Accessories
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Shanghai Collection" href="/search/Shanghai_Collection/Woman/season/main/tskay/27D69C18/gender/D/collection_id/27941/mm/112/">Shanghai Collection
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="Logo Go by Valentino Garavani" href="/search/Logo_Go_by_Valentino_Garavani/Woman/season/main/tskay/27D69C18/gender/D/collection_id/29725/mm/112/">Logo Go by Valentino Garavani
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <li id="pretPorter" class="mpa">
-                            <a href="javascript:void(0)" class="selected" title="PRÊT-À-PORTER">PRÊT-À-PORTER
+                            <a href="" class="selected" title="PRÊT-À-PORTER">PRÊT-À-PORTER
                             </a>
-                            <ul id="pap" class="subMenu">
-                                <li>
-                                    <a title="COATS AND JACKETS" href="/VALENTINO/search/COATS_AND_JACKETS/Woman/season/main/tskay/27D69C18/c/cat_195/gender/D/mm/112/">COATS AND JACKETS
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="DRESSES" href="/VALENTINO/search/DRESSES/Woman/season/main/tskay/27D69C18/c/cat_188/gender/D/mm/112/">DRESSES
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="SHIRTS AND TOPS" href="/VALENTINO/search/SHIRTS_AND_TOPS/Woman/season/main/tskay/27D69C18/c/cat_1824/gender/D/mm/112/">SHIRTS AND TOPS
-                                    </a>
-                                </li>
-                                <li>
-                                    <a title="SKIRTS AND TROUSERS" href="/VALENTINO/search/SKIRTS_AND_TROUSERS/Woman/season/main/tskay/27D69C18/c/cat_1825/gender/D/mm/112/">SKIRTS AND TROUSERS
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <li id="bags" class="mpa">
-                            <a class="selected" href="/VALENTINO/search/BAGS/Woman/season/main/tskay/27D69C18/c/cat_199/gender/D/mm/112" title="BAGS">BAGS
+                            <a class="selected" href="" title="BAGS">BAGS
                             </a>
                         </li>
                         <li id="shoes" class="mpa">
-                            <a class="selected" href="javascript:void(0)" title="SHOES">SHOES
+                            <a class="selected" href="" title="SHOES">SHOES
                             </a>
-                            <ul id="as" class="subMenu">
-                                <li>
-                                    <a title="SHOES" href="/VALENTINO/search/SHOES/Woman/season/main/tskay/27D69C18/c/cat_198/gender/D/mm/112/">View all
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <li id="accessories" class="mpa">
-                            <a class="selected" href="/VALENTINO/search/ACCESSORIES/Woman/season/main/tskay/27D69C18/c/cat_200/gender/D/mm/112" title="ACCESSORIES">ACCESSORIES
+                            <a class="selected" href="" title="ACCESSORIES">ACCESSORIES
                             </a>
                         </li>
                         <li id="parfume" class="mpa">
-                            <a class="selected" href="/VALENTINO/search/FRAGRANCES/Woman/season/main/tskay/27D69C18/c/cat_214/gender/D/mm/112" title="FRAGRANCES">FRAGRANCES
+                            <a class="selected" href="" title="FRAGRANCES">FRAGRANCES
                             </a>
                         </li>
                     </ul>
@@ -262,50 +191,50 @@
                             <li class="nation_cyc">SPAIN
                             </li>
                             <li id="cyc_li">
-                                <a id="cyc" href="http://store.valentino.com/chooseYourCountry.asp?mm=112">Change Country
+                                <a id="cyc" href="">Change Country
                                 </a>
                             </li>
                             <li class="border_left">
-                                <a href="javascript:Links.openReturns()">Returns
+                                <a href="">Returns
                                 </a>
                             </li>
                             <li class="border_left">
-                                <a href="javascript:Links.openShippingTimes()">Shipping
+                                <a href="">Shipping
                                 </a>
                             </li>
                         </ul>
                         <div id="switchBrand">
                             <p> SHOP AT:
                             </p>
-                            <span class="selected border_right">VALENTINO
+                            <span class="selected border_right">STORE at PABLOs
                             </span>
-                            <a id="brandSwitcher" href="http://store.valentino.com/REDVALENTINO/corner/tskay/27D69C18/mm/3313/gender/D">REDVALENTINO
+                            <a id="brandSwitcher" href="">ART in PABLO
                             </a>
                         </div>
                     </div>
                     <div id="ftMiddle">
-                        <a id="fb" target="_new" href="https://www.facebook.com/valentino">
+                        <a id="fb" target="_new" href="https://www.facebook.com/pablohart">
                         </a>
-                        <a id="ig" target="_new" href="http://instagram.com/maisonvalentino">
+                        <a id="ig" target="_new" href="http://instagram.com/pablohart">
                         </a>
-                        <a id="pi" target="_new" href="http://pinterest.com/valentino/">
+                        <a id="pi" target="_new" href="http://pinterest.com/pablohart/">
                         </a>
-                        <a id="tw" target="_new" href="https://twitter.com/MaisonValentino">
+                        <a id="tw" target="_new" href="https://twitter.com/pablohart">
                         </a>
-                        <a id="yt" target="_new" href="http://www.youtube.com/valentino">
+                        <a id="yt" target="_new" href="http://www.youtube.com/pablohart">
                         </a>
-                        <a target="_new" id="domain" href="http://www.valentino.com">VALENTINO.COM
+                        <a target="_new" id="domain" href="http://www.pablohart.es">PABLOHART.ES
                         </a>
                     </div>
                     <div id="ftRight">
                         <div id="rightTop">
                             <ul>
                                 <li class="last">
-                                    <a href="/cms/legal/privacypolicy.asp">Privacy Policy
+                                    <a href="">Privacy Policy
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/cms/legal/saleterms.asp" class="border_right">Legal Area
+                                    <a href="" class="border_right">Legal Area
                                     </a>
                                 </li>
                             </ul>
@@ -313,84 +242,14 @@
                         <div class="clear">
                         </div>
                         <ul class="copyright">
-                            <li>Powered by YOOX Group -
-                                <a href="javascript:Links.openCopyright()">Copyright
-                                </a> © 2000-2014 YOOX S.p.A. - All Rights Reserved
+                            <li>Powered by Woodride -
+                                <a href="">Copyright
+                                </a> © 2013-2014 Woodride S.L. - All Rights Reserved
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <script>
-        var Navigation = {
-        "TSKAY": "27D69C18",
-        "TSKAY_PARENT": "",
-        "GENDER": "D",
-        "AGERANGE": "",
-        "CURRENTSEASON": "main",
-        "CURRENTSEASONLABEL": "A",
-        "SECTION": "home",
-        "PROMOENABLED": "false",
-        "SUBSECTION": "",
-        "SITECODE": "VALENTINO_ES",
-        "SITE_CODE": "VALENTINO_ES",
-        "SITECODE_PARENT": "",
-        "BRAND_MM": "112",
-        "TPNEWSLETTER" : "",
-        "SITEFOLDER" : "valentino",
-        "ID_NATION": "19",
-        "IS_LOGGED": "0",
-        "IS_ECOMMERCE": "true",
-        "ITEMSINCART" : "",
-        "SERVERS": {
-        "HTTP": "http://store.valentino.com",
-        "HTTPS": "https://secure.store.valentino.com",
-        "COOKIE": "valentino.com",
-        "PRODUCTS": "http://cdn.yoox.biz",
-        "LAYOUT": "http://cdn2.yoox.biz"
-        },
-        "DEVICE": {
-        "isSmartphone": false,
-        "isTablet": false,
-        "isDesktop": true,
-        "isIE6": false,
-        "isIE7": false,
-        "isIE8": false,
-        "isIE9": false,
-        "isIE10": false,
-        "isIE" : false,
-        "isWinPhone": false
-        },
-        "USER": {
-        "email": ""
-        }
-        };
-        var jsinit_cartApiRequest={
-        cartApiHandlerUrl: '/scripts/services/CartApiHandler.ashx'
-        };
-        var jsinit_cartApiResponse={
-        labels: { '201': 'This product has been added to your Shopping Bag.', '201s': 'Products added to Shopping Bag', '431': 'We are sorry but you can only buy up to 25 items per order.', '430': 'You can place a maximum of 2 identical items in the Shopping Bag', '500': 'Error 500' }, isSmartphone: false
-        };
-        </script>
-        <script type="text/javascript">
-        var jsinit_cartLayer={
-        labels: { addto: "This product has been added to your Shopping Bag.", checkout : 'Proceed to purchase', subtotal : 'Subtotal', price : 'Price', emptyCart: 'Your Shopping Bag is empty.', topLayer: 'Products added to Shopping Bag' }, checkoutHref : 'http://store.valentino.com/checkout/cart.asp?tskay=27D69C18', cookieDomain: 'valentino.com', currency: '€', countryIsoCode: 'ES', gaTrackPage: 'Home'
-        };
-        </script>
-        <script type="text/javascript">
-        /*  */
-        var google_conversion_id = 1037378630;
-        var google_custom_params = window.google_tag_params;
-        var google_remarketing_only = true;
-        /*  */
-        </script>
-        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">//
-        </script>
-        <noscript>
-            <div style="display:inline;">
-                <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1037378630/?value=0&amp;guid=ON&amp;script=0" />
-            </div>
-        </noscript>
     </body>
 </html>

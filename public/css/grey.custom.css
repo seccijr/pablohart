@@ -1,44 +1,35 @@
-@font-face {
-    font-family: 'Champagne & Limousine';
-    src:  url('../fonts/Champagne%20&%20Limousines.ttf') format('truetype')
-}
-
-@font-face {
-    font-family: 'Close to You';
-   src:  url('../fonts/Close%20to%20You.ttf') format('truetype')
-}
-
 body {
-    font-family: 'Champagne Stint Ultra Condensed Limousine', cursive;
+    font-family: 'Ubuntu Mono', ;
+    font-size: 20px;
 }
 
 #footer{
-    font-family: 'Champagne Stint Ultra Condensed Limousine', cursive;
+    font-family: 'Ubuntu Mono', ;
 }
 
 #newsletterLayer h2.sectionTitle {
-    font-family: 'Champagne Stint Ultra Condensed Limousine', cursive;
+    font-family: 'Ubuntu Mono', ;
 }
 
-.Homemade-Apple-normal-400 {
-    font-family: "Close to You" !important;
-    font-style: normal;
-    font-weight: 400;
+.copyright{
+    text-align: right;
 }
 
 .logoTop {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400;
     background: url('') no-repeat scroll left top;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .mainSectionsInner{
-    font-family: 'Champagne Stint Ultra Condensed Limousine', cursive;
+    font-family: 'Ubuntu Mono', ;
 }
 
 .redValentino #login{
-    font: 12px 'Champagne Stint Ultra Condensed Limousine', cursive;
+    font-family: 'Ubuntu Mono', ;
 }
 
 .switchSeason span.mainSeason, .switchSeason span.secondarySeason, .switchGender span {
-    font-family: 'Champagne Stint Ultra Condensed Limousine', cursive;
+    font-family: 'Ubuntu Mono', ;
 }
