@@ -32,8 +32,8 @@
     </div>
 </div>
 <div class="headerCnt">
-    <span class="Homemade-Apple-normal-400 logoTop">
-        Pablo Hart
+    <span class="logoTop">
+        {{ HTML::image('img/logo.png'); }}
     </span>
     <div class="switchSeason clearfix">
         <ul>

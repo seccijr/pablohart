@@ -1,9 +1,6 @@
 * {
     box-sizing: initial!important;
 }
-body {
-    font-family: 'Ubuntu Mono';
-}
 #wrapper {
     padding-bottom: 8px;
 }
@@ -18,11 +15,3 @@ body {
     font-size: 12px;
     line-height: 23px;
 }
-.logoTop {
-    font-family: 'Homemade Apple', cursive;
-    font-weight: 400;
-    background: url('') no-repeat scroll left top;
-    font-size: 30px;
-}
-
->>>>>>> 0b01c267cd7bc60fe629a0ee5fbf1449937c5af3
