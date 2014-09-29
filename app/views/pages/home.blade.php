@@ -26,7 +26,7 @@
         <div class="innerCol">
             <div id="slotContainer">
                 <div class="innerSlot01">
-                    <img src="http://cdn2.yoox.biz/os/valentino/banners/101_1_HP_ADV_DONNA_2sett.jpg" id="banner_IDASFCBO" />
+                    <img src=""/>
                 </div>
                 <div class="clear">
                 </div>
