@@ -1,0 +1,26 @@
+* {
+    box-sizing: initial!important;
+}
+#wrapper {
+    padding-bottom: 8px;
+}
+.copyright {
+    text-align: right;
+}
+.mpa {
+    cursor: pointer;
+}
+.mpa a {
+    color:#fff;
+    font-size: 12px;
+    line-height: 23px;
+}
+<<<<<<< HEAD
+.logoTop {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400;
+    background: url('') no-repeat scroll left top;
+    font-size: 30px;
+}
+=======
+>>>>>>> 8250e6c7618aa6b76211759bb90ce82f41f91ef9
