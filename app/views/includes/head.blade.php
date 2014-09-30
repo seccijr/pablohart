@@ -8,8 +8,6 @@
 <meta property="og:title" content="Pablo Hart exposición online" />
 <meta property="og:description" content="Bienvenidos al espacio de arte y moda de la mano de Pablo Hart" />
 <meta name="robots" content="index,nofollow" />
-<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
 {{ HTML::style('css/grey.css') }}
 {{ HTML::style('css/grey.custom.css') }}
 {{ HTML::script('js/vendor/underscore/underscore.js') }}

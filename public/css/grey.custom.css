@@ -1,9 +1,6 @@
 * {
     box-sizing: initial!important;
 }
-body {
-    font-family: 'Ubuntu Mono';
-}
 #wrapper {
     padding-bottom: 8px;
 }
