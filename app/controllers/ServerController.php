@@ -11,5 +11,7 @@ class ServerController extends BaseController {
         $ipKey = ServerModel::firstOrNew(array('key' => 'ip'));
         $ipKey->value =  Request::server('REMOTE_ADDR');
         $ipKey->save();
+
+        return $ipKey->value;
     }
 }
