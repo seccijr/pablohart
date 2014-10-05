@@ -27,3 +27,8 @@ Route::get('/contemporaneous', function() {
 Route::get('/urban', function() {
     return View::make('pages.urban');
 });
+
+Route::group(array('prefix' => 'server'), function () {
+    Route::get('/ip', 'ServerController@getIp');
+    Route::put('/ip', 'ServerController@setIp');
+});
