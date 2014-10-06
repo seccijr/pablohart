@@ -2,7 +2,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, input, tex
     margin:0;
     padding:0;
 }
-body{
+body {
     background-color:#fbf8ec;
     font-size:12px;
     text-align:center;
@@ -10,7 +10,7 @@ body{
     width:100%;
     font-size:11px;
 }
-form{
+form {
     padding: 0;
     margin: 0;
 }
@@ -22,13 +22,13 @@ ul {
     list-style-position:outside;
     list-style-type:none;
 }
-.clear{
+.clear {
     clear:both;
 }
 .clearfix {
     display: inline-block;
 }
-input, select{
+input, select {
     margin: 0 0 4px 0;
     padding: 2px 0 0 3px;
     width: 240px;
@@ -54,16 +54,18 @@ a:focus {
     -moz-outline-style: none;
     outline: none;
 }
-.cols{
+.cols {
     z-index:1;
     font-weight: normal;
     text-align: left;
 }
-#mainSectionsInner{
+#mainSectionsInner {
     font-size:11px;
     text-transform:uppercase;
 }
-#textSearch{ position:relative; }
+#textSearch {
+    position:relative;
+}
 #newArrivals li a.selected, #newArrivals li a.selected:hover {
     background-color: #000000;
     color: #FFFFFF;
@@ -73,7 +75,9 @@ a:focus {
     width:100%;
     margin:0 auto;
 }
-#footer { text-align: center; }
+#footer {
+    text-align: center;
+}
 #header,#subheader,#wrapper,#footerInner {
     width: 990px;
     margin: 0 auto;
@@ -82,19 +86,22 @@ a:focus {
     text-align: left;
 }
 #wrapper {
+    padding-bottom: 8px;
     height: auto;
     min-height: 564px;
     z-index: 1;
     padding-bottom: 38px;
     position: relative;
 }
-#content{position:relative;}
+#content {
+    position:relative;
+}
 #col1{
     height:auto;
     width:100%;
     position:relative;
 }
-#slotContainer{
+#slotContainer {
     height:540px;
     width:960px;
 }
@@ -131,72 +138,95 @@ a:focus {
 .innerSlot04, .innerSlot08, .innerSlot12, .innerSlot16 {
     left:741px;
 }
-#footer{
+#footer {
     font-size:10px;
     margin:0 auto;
     text-transform:uppercase;
     clear:both;
 }
-#footer a{
+#footer a {
     text-decoration:none;
 }
-#footer li{
+#footer li {
     display:inline;
 }
 #accountindex #footer, #accountregistration #footer,
 #accountprofile #footer, #accountorders #footer,
-#footer{
+#footer {
     /*background-color:#909090;*/
 }
-#footer #ftLeft li, #footer #cyc{
+#footer #ftLeft li, #footer #cyc {
     display:inline-block;
     float:left;
     height:10px;
     line-height:10px;
 }
-#footer #ftRight li{float:right;}
-#footer #ftRight li.last a{padding-right:0px;}
-#ftRight a, #ftLeft a, #cyc,#ftLeft li span{
+#footer #ftRight li {
+    float:right;
+}
+#footer #ftRight li.last a {
+    padding-right:0px;
+}
+#ftRight a, #ftLeft a, #cyc,#ftLeft li span {
     color:#fff;
 }
-#footer #cyc{
+#footer #cyc {
     margin-left:8px;
 }
-#footer #ftRight a{
+#footer #ftRight a {
     padding:0 8px;
 }
-#footer #ftRight .copyright li{font-size:11px;padding:0;}
-.copyright{
+.copyright {
+    text-align: right;
     font-size:9px;
     text-transform:none;
     color:#535353;
     margin-top:8px;
+    text-transform: uppercase;
+    margin-top: 5px;
 }
-#footer #ftRight .copyright li a{
+#ftRight .copyright, #ftRight #rightTop {
+    float:right;
+}
+#footer #ftRight .copyright li {
+    font-size:11px;padding:0;
+}
+#footer #ftRight .copyright li {
+    font-size: 8px;
+}
+#footer #ftRight .copyright li a {
     float:none;
     color:#535353;
     padding:0px;
 }
-#switchBrand{
+#footer #ftRight .copyright li a:hover {
+    color: #b3b3b1;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -ms-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+#switchBrand {
     clear:both;
     padding-top:6px;
 }
-#switchBrand span{
+#switchBrand span {
     font-weight:bold;
 }
-#switchBrand span, #switchBrand a{
+#switchBrand span, #switchBrand a {
     padding: 0 8px;
     font-size:10px;
 }
-#switchBrand span, #switchBrand a, #switchBrand p{
+#switchBrand span, #switchBrand a, #switchBrand p {
     display:inline;
 }
-#addToShoppingBag{
+#addToShoppingBag {
     text-transform: none;
     display: block;
     height:auto;
 }
-#searchTextbox,#newsletterInput{
+#searchTextbox,#newsletterInput {
     margin:0;
     padding: 0;
     width: 0px;
@@ -205,7 +235,9 @@ a:focus {
     background: none;
     border: none;
 }
-#container {position:relative;}
+#container {
+    position:relative;
+}
 #headerUpBar,#headerCnt {
     width: 100%;
     overflow: hidden;
@@ -215,12 +247,16 @@ a:focus {
     position: relative;
     z-index: 3;
 }
-#headerUpBar {height: 32px;}
+#headerUpBar {
+    height: 32px;
+}
 #cntTop,#containerNewsletter {
     float:right;
     padding-top:12px;
 }
-#containerNewsletter { margin-right: 8px; }
+#containerNewsletter {
+    margin-right: 8px;
+}
 #newsletter {
     position: relative;
     color: #999;
@@ -259,7 +295,9 @@ a:focus {
 #login {
     padding-top: 2px;
 }
-#login ul li { float: left; }
+#login ul li {
+    float: left;
+}
 #login ul li a {
     font-size: 11px;
     line-height: 11px;
@@ -272,24 +310,44 @@ a:focus {
     color: #999;
     margin: 3px 0 0 0;
 }
-#login ul li.first a { border: none }
+#login ul li.first a {
+    border: none
+}
 .logoTop {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 400;
+    background: url('') no-repeat scroll left top;
+    font-size: 30px;
     display: inline-block;
     margin-bottom: 10px;
     height: 45px;
     width: 280px;
 }
-.headerCnt { position:relative }
-.switchSeason, .switchSection { width:100% }
-.switchSeason ul li, .switchSection ul li { float:left; }
-.switchSection ul li { padding-right: 8px; }
-.switchSection ul { float:left; }
-.mainSections { float: right; }
+.headerCnt {
+    position:relative
+}
+.switchSeason, .switchSection {
+    width:100%
+}
+.switchSeason ul li, .switchSection ul li {
+    float:left;
+}
+.switchSection ul li {
+    padding-right: 8px;
+}
+.switchSection ul {
+    float:left;
+}
+.mainSections {
+    float: right;
+}
 .switchSection .navCnt li {
     padding: 0;
     padding-left: 8px;
 }
-#cartNum { padding-left: 5px; }
+#cartNum {
+    padding-left: 5px;
+}
 #bannerMenu {
     position: absolute;
     right: 0;
@@ -301,7 +359,7 @@ a:focus {
     font-size:13px;
     line-height: 14px;
 }
-.switchSeason span, .switchSeason a{
+.switchSeason span, .switchSeason a {
     margin-right: 10px;
 }
 .switchSeason a, .switchSection a {
@@ -346,15 +404,16 @@ a:focus {
 #searchLens:hover {
     opacity: 0.8;
 }
-.menuNavigation li{
+.menuNavigation li {
     float:left;
     text-transform:uppercase;
 }
-li.currentSel,#subMenu li.selected{
+li.currentSel,#subMenu li.selected {
     /*background: #999999;*/
     cursor:pointer;
 }
 .mpa {
+    cursor: pointer;
     width: 136px;
     padding: 0px 24px 0px 24px;
     text-align: center;
@@ -362,6 +421,11 @@ li.currentSel,#subMenu li.selected{
     line-height: 22px;
     position: relative;
     z-index: 2;
+}
+.mpa a {
+    color:#fff;
+    font-size: 12px;
+    line-height: 23px;
 }
 .mpa:hover,
 ul.subMenu-on li:hover,
@@ -402,7 +466,9 @@ ul.subMenu-on li:hover,
     border-left: 1px solid #fff;
     text-indent: -9999px;
 }
-#login ul li.last a { padding-right: 0;}
+#login ul li.last a {
+    padding-right: 0;
+}
 #footer {
     color: #31302F;
     padding-bottom:5px;
@@ -410,7 +476,7 @@ ul.subMenu-on li:hover,
     z-index:10;
 }
 #footerInner {
-    width: 990px;	
+    width: 990px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -419,28 +485,22 @@ ul.subMenu-on li:hover,
 #cyc,  #ftLeft li span {
     color: #31302F;
 }
-#ftLeft, #ftRight, #ftMiddle{
+#ftLeft, #ftRight, #ftMiddle {
     margin:0;
     float: left;
     margin-top: 10px;
 }
-#ftRight .copyright, #ftRight #rightTop{
-    float:right;
-}
-#ftLeft{
+#ftLeft {
     width: 41%;
 }
-#ftMiddle{
+#ftMiddle {
     width:22%;
 }
-#ftRight{
+#ftRight {
     width: 37%;
 }
-#ftRight #rightTop ul{
+#ftRight #rightTop ul {
     float:left;
-}
-.copyright {
-    text-transform: uppercase;
 }
 #ftMiddle a {
     cursor: pointer;
@@ -451,7 +511,7 @@ ul.subMenu-on li:hover,
     margin: 0 2px;
     background: url('http://cdn2.yoox.biz/Os/valentino3/sprite_social_vl06.png') no-repeat scroll left top;
 }
-.fromShoeRoom #ftMiddle a:hover{
+.fromShoeRoom #ftMiddle a:hover {
     color:#000;
 }
 #ftMiddle #fb {
@@ -498,12 +558,6 @@ ul.subMenu-on li:hover,
 #ftMiddle #txt, #txt:hover {
     background: none;
 }
-#footer #ftRight .copyright li {
-    font-size: 8px;
-}
-.copyright {
-    margin-top: 5px;
-}
 .border_left {
     border-left: 1px solid #61605f;
 }
@@ -522,14 +576,6 @@ ul.subMenu-on li:hover,
     font-size:10px;
 }
 #footer a:hover,
-#footer #ftRight .copyright li a:hover {
-    color: #b3b3b1;
-    -webkit-transition: color .2s;
-    -moz-transition: color .2s;
-    -ms-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-}
 #footer #ftLeft #cyc_li {
     padding-left: 0;
 }
@@ -541,10 +587,12 @@ ul.subMenu-on li:hover,
     width: auto !important;
     line-height:normal;
 }
-#domain:hover{
+#domain:hover {
     color:#B3B3B1;
 }
-#cartLink { cursor: pointer; }
+#cartLink {
+    cursor: pointer;
+}
 .rowThree #login,.rowThree #bannerMenu,
 .rowThree .switchSeason,
 .rowThree .switchSection,

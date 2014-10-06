@@ -33,7 +33,7 @@
 </div>
 <div class="headerCnt">
     <span class="logoTop">
-        {{ HTML::image('img/logo.png'); }}
+        Pablo Hart
     </span>
     <div class="switchSeason clearfix">
         <ul>
@@ -86,13 +86,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-    <div id="bannerMenu" class="clearfix">
-        <div class="banner3">
-            <img src="http://cdn2.yoox.biz/os/valentino/banners/1149_1_VL_free_standard_shipping_definitivo.jpg" alt="TOP_3_VAL" />
-        </div>
-        <div class="clear">
         </div>
     </div>
 </div>
